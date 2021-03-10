@@ -3,42 +3,40 @@
     padding: 0;
 }
 
+#header {
+    width: 100%;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 #logo {
+    display: inline-block;
     margin-top: 20px;
-    display:inline-block;
 }
 
 li {
     list-style: none;
 }
 
-#header {
-    width:100%;
-    float:left;
-    background: white;
-}
-
-#container {
-    width: 1200px;
-    margin: 0 auto;
-
-}
-
-#gnb{
+#gnb {
     float: right;
 }
 
-#gnb ul li {
-    float:left;
-}
-
-#gnb ul li a{
-    display: block;
+#gnb ul li a {
+    display:block;
     text-align: center;
     text-decoration: none;
     font-size: 19px;
     font-weight: bold;
-    color: midnightblue;
-    width:180px;
     padding: 40px 0;
+    color: midnightblue;
+    
+}
+
+#gnb li{
+    float: right;
+    width: 180px;
 }
