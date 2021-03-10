@@ -9,7 +9,7 @@ html, body {
     height: 100%;
 }
 
-div {
+div, span, nav, section {
     display: block;
 }
 
@@ -45,10 +45,17 @@ li {
     float: right;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: block;
+}
+
 #gnb ul li a {
     display:block;
     text-align: center;
-    text-decoration: none;
     font-size: 19px;
     font-weight: bold;
     padding: 40px 0;
