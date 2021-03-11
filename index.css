@@ -1,0 +1,113 @@
+*{margin: 0;
+padding: 0;}
+
+html{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+ul, li{
+    list-style:none;
+}
+
+#warp{
+    width: 100%;
+}
+
+#logo{
+    float: left;
+    margin-top: 20px;
+}
+
+#header{
+    margin: 0 auto;
+    width: 1200px;
+    }
+
+a{
+    text-align: center;
+    text-decoration: none;
+}
+
+#gnb{
+    float: right;
+    margin-top: 40px;
+}
+
+#gnb > ul >li {
+    float: left;
+    width: 180px;
+}
+#gnb > ul >li > a{
+    font-size: 19px;
+    color: #004385;
+}
+#visual{
+    width: 1920px;
+    height: 500px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#container{
+    
+    width: 100%;
+    margin-top: 30px;
+}
+
+#contents{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.con_item{
+    width: 50%;
+    height: 250px;
+    float: left;
+    border:1px solid #ececec ;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.con_item > a{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 32px;
+    background-color: #004385;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+.con_item > p{
+    margin-top: 30px;
+    color: gray;
+    
+}
+
+.con_notice{
+    width: 50%;
+}
+.con_notice1{
+    background: url("./images/main_con_ic_01.png") bottom right no-repeat;
+    background-position: 183px 120px ;
+}
+.con_notice2{
+    background: url("./images/main_con_ic_02.png") bottom right no-repeat;
+    background-position: 183px 120px ;
+}
+.con_notice3{
+    background: url("./images/main_con_ic_04.png") bottom right no-repeat;
+    background-position: 183px 120px ;    
+}
+.con_notice4{
+    background: url("./images/main_con_ic_05.png") bottom right no-repeat;
+    background-position: 183px 120px ;
+}
+
+span{
+    font-size: 12px;
+    color: gray;
+}
