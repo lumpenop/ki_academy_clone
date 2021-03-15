@@ -3,54 +3,51 @@
     padding: 0;
 }
 
-html {
-    overflow-y: auto;
-    overflow-x: hidden
+a {
+    text-decoration: none;
+    text-align: center;
 }
 
 li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
-
 #logo {
-    margin-top: 20px;
     display: inline-block;
+    margin-top: 20px
 }
 
-#header {
-    width: 100%;
-}
 
-#header_container{
+#container, #header_container{
     width: 1200px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
-#gnb {
-    float:right;
+#header, #container {
+    width: 100%;
+    margin: 0 auto;
 }
 
-#gnb ul li {
-    float:left;
-    width: 180px;
-    text-align: center;
+#gnb{
+    float: right;
 }
 
-#gnb ul li a{
+#gnb li{
+    float: left;
+}
+
+#gnb li a{
     display: inline-block;
+    width: 180px;
+    padding: 40px 0;
+    color: #004385;
     font-size: 19px;
     font-weight: bold;
-    padding: 40px 0;
 }
 
 #container {
     width: 100%;
-    margin-top: 30px;
+    margin: 20px auto 0 auto;
 }
 
 #contents {
@@ -58,65 +55,160 @@ a {
     margin: 0 auto;
 }
 
-#contents ul {
+#con_lecture {
     width: 50%;
+    float: left;
 }
 
-#contents span{
-    font-size: 12px;
-    color: #666;
-}
 
-#contents ul li {
+
+#con_lecture li{
+    display: inline-block;
+    width: 50%;
     box-sizing: border-box;
-    width: 50%;
     padding: 20px;
-    border: 1px solid #ececec;
     float: left;
     height: 230px;
+    border: 1px solid #ececec;
 }
 
-#contents li p{
+#con_lecture li span{
+    display: block;
+    font-size: 12px;
+    color: #4689e1;
+}
+
+#con_lecture li p {
     margin-top: 30px;
-    color: #666;
-    width: 120px;
+    color: #666666;
 }
 
-#contents li a{
+#con_lecture > ul >  li > a{
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 40px;
     background: skyblue;
-    text-align: center;
-    color:snow;
+    color: #eee;
+    border-radius: 15px;
     width: 100px;
     height: 30px;
-    line-height: 28px;
-    border-radius: 15px;
+    line-height: 30px;
+    font-size: 14px;
 }
 
-.con1 {
+#con_lecture li:nth-child(1){
     background: url(
-        "./images/main_con_ic_01.png"
-    )right bottom no-repeat;
-    background-position: 178px 109px;
+    "./images/main_con_ic_01.png"
+    )bottom right no-repeat;
+    background-position: 172px 109px;
 }
 
-.con2 {
+#con_lecture li:nth-child(2){
     background: url(
-        "./images/main_con_ic_02.png"
-    )right bottom no-repeat;
-    background-position: 178px 109px;
+    "./images/main_con_ic_02.png"
+    )bottom right no-repeat;
+    background-position: 172px 109px;
 }
-.con3 {
+
+#con_lecture li:nth-child(3){
     background: url(
-        "./images/main_con_ic_04.png"
-    )right bottom no-repeat;
-    background-position: 178px 109px;
+    "./images/main_con_ic_04.png"
+    )bottom right no-repeat;
+    background-position: 172px 109px;
 }
-.con4 {
+
+#con_lecture li:nth-child(4){
     background: url(
-        "./images/main_con_ic_05.png"
-    )right bottom no-repeat;
-    background-position: 178px 109px;
+    "./images/main_con_ic_05.png"
+    )bottom right no-repeat;
+    background-position: 172px 109px;
+}
+
+#con_lecture li:nth-child(5){
+    background: url(
+    "./images/main_con_ic_05.png"
+    )bottom right no-repeat;
+    background-position: 172px 109px;
+}
+
+#con_lecture li:nth-child(6){
+    background: url(
+    "./images/main_con_ic_05.png"
+    )bottom right no-repeat;
+    background-position: 172px 109px;
+}
+
+#con_lecture li dt,
+#con_lecture li dt a,
+#con_lecture li dd{
+    
+    color:#666666;
+    font-size:12px;
+}
+#con_lecture li dt{
+   width: 70%;
+   margin: 0;
+   float: left;
+   line-height: 32px;
+}
+
+#con_lecture li dd{
+    width: 30%;
+    margin: 0;
+    float: left;
+    line-height: 32px;
+}
+   
+
+.btn_kakao{
+    margin-left: 65px;
+    border: none;;
+}
+
+.main_con_interview{
+    width: 50%;
+    height: 415px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+}
+
+.main_con_interview a {
+    color: #666;
+}
+
+.main_con_interview h4{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.main_con_interview h3{
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+
+.con_community{
+    width: 50%;
+    float: left;
+    
+}
+
+.con_community > ul > li > h3 > a {
+    float: right;
+}
+
+.bg_gray{
+    display: inline-block;
+    width: 50%;
+    height: 415px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ececec;
+    border-right: 1px solid #ececec;
 }
 
