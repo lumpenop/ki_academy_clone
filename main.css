@@ -300,7 +300,8 @@ li {
 }
 
 .main_bbs div{
-    width: 33%;
+    width: 390px;
+    margin-right: 15px;
 }
 
 .main_bbs span{
