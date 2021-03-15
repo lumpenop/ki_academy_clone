@@ -299,10 +299,28 @@ li {
     margin: 0 auto;
 }
 
+.main_bbs{
+    width: 100%;
+    
+}
 .main_bbs div{
+    
     width: 390px;
+    height: 430px;
     margin-right: 15px;
+    padding: 20px;
+    border: 1px solid #ececec;
     box-sizing: border-box;
+    font-size: 12px;
+}
+
+.main_bbs div:nth-child(2){
+    float: left;
+}
+
+.main_bbs div:last-child{
+    margin-right: 0;
+    float: left;
 }
 
 .main_bbs span{
