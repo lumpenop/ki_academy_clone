@@ -252,7 +252,7 @@ li {
     color: #666;
 }
 
-.bg_gray li{
+.main_review li{
     margin-top: 5px;
     padding: 5px 10px;
     border: 1px solid #ececec;
@@ -416,4 +416,12 @@ p.copyright{
 
 #con_lecture dl dt a:before {
     content: " - ";
+}
+
+.bbs_con_list li {
+    line-height: 32px;
+}
+
+.bbs_con_list{
+    margin-top: 20px;
 }
