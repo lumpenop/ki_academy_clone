@@ -185,7 +185,13 @@ li {
     text-align: center;
 }
 
-.main_con_interview h3{
+.main_con_interview img{
+    border: 1px solid #ececec;
+    margin-top: 20px;
+}
+
+.content h3{
+    margin-top: 20px;
     font-size: 12px;
     color: #666;
     text-align: center;
@@ -211,4 +217,44 @@ li {
     border-bottom: 1px solid #ececec;
     border-right: 1px solid #ececec;
 }
+.main_review p{
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+}
 
+.main_review {
+    margin-top: 20px;
+}
+
+.bg_gray a{
+    font-size: 12px;
+    color: #666;
+}
+
+.bg_gray li{
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ececec;
+    line-height: 20px;
+}
+
+.con_teacher {
+    border: 1px solid #ececec;
+}
+
+.con_teacher a {
+    float: right;
+}
+
+.con_teacher h3 {
+    padding: 20px;
+}
+
+.con_teacher iframe {
+    margin: 0 auto;
+}
+
+#content {
+    text-align: center;
+}
