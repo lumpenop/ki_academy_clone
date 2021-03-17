@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_header_con{
+    background: url(
+        http://www.kiweb.or.kr/images/main/top_bg.gif
+    ) no-repeat;
+    height: 40px;
+}
+
+.main_header{
+    background: rgb(51, 51, 51);
+}
+
+.logo {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.gnb {
+    float: right;
+}
+
+.gnb li {
+    float: left;
+}
+
+.gnb li a{
+    display: inline-block;
+    color: #004385;
+    font-weight: bold;
+    font-size: 19px;
+    width: 180px;
+    padding: 40px 0;
+}
+
+.header .container{
+    overflow: hidden;
+}
+
+.visual img{
+    display: block;
+    margin: 0 auto;
+}
+
+.con_lecture {
+    float: left;
+    width: 50%
+}
+
+.con_lecture li {
+    float: left;
+    width: 50%;
+    height: 230px;
+}
+
+.interview > img{
+    width: 238px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.review_container{
+    display: inline-block;
+    width: 50%;
+}
+
+.interview{
+    float: left;
+    width: 50%;  
+    height: 417px;
+}
+
+.interview > a,
+.review > a{
+    float: right;
+}
+
+h3{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.review{
+    width: 50%;
+    display: inline-block;
+}
+
+.portfolio{
+    width: 50%;
+    display: inline-block;
+}
+
+.content li,
+.portfolio{
+    padding:20px;
+    border: 1px solid #ececec;
+}
+
+
+
+
+.video{
+    display: block;
+    width: 100%;
+    height: 440px;
+}
+
+.review li {
+    padding: 0;
+    line-height: 32px;
+}
+
