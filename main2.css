@@ -82,12 +82,13 @@ a{
 .review_container{
     display: inline-block;
     width: 50%;
+    height: 415px;
 }
 
 .interview{
     float: left;
     width: 50%;  
-    height: 417px;
+    height: 415px;
 }
 
 .interview > a,
@@ -103,15 +104,29 @@ h3{
 .review{
     width: 50%;
     display: inline-block;
+    height: 415px;
 }
 
 .portfolio{
     width: 50%;
     display: inline-block;
+    border: 1px solid #ececec;
+    height: 505px;
 }
 
-.content li,
-.portfolio{
+.portfolio h3{
+    display: block;
+    padding: 20px 20px 10px 20px;
+    margin: 0;
+    
+}
+
+.portfolio > h3 > a{
+    float: right;
+}
+
+.content li
+{
     padding:20px;
     border: 1px solid #ececec;
 }
@@ -121,8 +136,11 @@ h3{
 
 .video{
     display: block;
-    width: 100%;
-    height: 440px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+   
 }
 
 .review li {
@@ -130,3 +148,127 @@ h3{
     line-height: 32px;
 }
 
+.ki{
+    width: 390px;
+    margin-right: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #ececec;
+}
+
+
+
+.ki ul{
+    margin-top: 20px;
+}
+
+.ki li{
+    border: none;
+    line-height: 32px;
+    font-size: 12px;
+    padding: 0;
+
+}
+
+.column{
+    margin: 0;
+    display: inline-block;
+}
+
+.ki > dl > dt >img{
+    width: 100%;
+    height: auto;
+}
+
+.ki > dl > dd {
+    margin-top: 10px;
+}
+
+.ki > dl > dd > a {
+    color: #004385;
+    font-size: 12px;
+}
+
+.footer{
+    background: #323232;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+.footer_menu li{
+    float: left;
+}
+
+.footer_menu li a{
+    padding: 0 10px;
+    font-size: 12px;
+    color: #AEAEAE;
+}
+
+
+.footer_menu ul:last-child{
+    display: inline-block;
+}
+
+.footer_logo{
+    float: left;
+    margin: 30px 0 0 20px;
+}
+
+.copyright_section{
+    display: inline-block;
+    margin: 25px 0 0 50px
+}
+
+.copyright_section p{
+    font-size: 12px;
+    color: #AEAEAE;
+    line-height: 22px;
+}
+
+.copyright{
+    margin-top: 10px;
+}
+
+.visual{
+    position: relative;
+}
+
+.visual_nav{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 1, 1, 0.5);
+}
+
+.visual_nav ul{
+    height: 50px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+.visual_nav li{
+    float: left;
+    height: 100%;
+}
+
+.visual_nav li:last-child{
+    display: inline-block;
+}
+
+.visual_nav li a{
+    display: block;
+    padding: 15px 40px;
+    color: #a8b4be;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main_content{
+    margin-top: 30px;
+}
