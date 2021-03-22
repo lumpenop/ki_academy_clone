@@ -15,7 +15,55 @@ div {
 
 #visual{
     clear: both;
+    position: relative;
 }
+
+#visual img{
+    display: block;
+    margin: 0 auto;
+}
+.visual_nav{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 1, 1, 0.5);
+}
+
+.visual_nav ul{
+    height: 50px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+.visual_nav li{
+    float: left;
+    height: 100%;
+}
+
+.visual_nav li:last-child{
+    display: inline-block;
+}
+
+.visual_nav li a{
+    display: block;
+    padding: 15px 40px;
+    color: #a8b4be;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.visual_nav li:first-child a{
+    color: #fff;
+}
+
+.visual_nav li:first-child{
+    background-color: rgba(0,0,0,0.7);
+}
+
 
 a {
     text-decoration: none;
@@ -83,7 +131,7 @@ li {
 
 
 #con_lecture li{
-    display: inline-block;
+ 
     width: 50%;
     box-sizing: border-box;
     padding: 20px;
@@ -99,8 +147,9 @@ li {
 }
 
 #con_lecture li p {
-    margin-top: 30px;
+    margin-top: 20px;
     color: #666666;
+    font-size: 16px;
 }
 
 #con_lecture > ul >  li > a{
