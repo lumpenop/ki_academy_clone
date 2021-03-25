@@ -18,10 +18,7 @@ div {
     position: relative;
 }
 
-#visual img{
-    display: block;
-    margin: 0 auto;
-}
+
 .visual_nav{
     width: 100%;
     position: absolute;
@@ -48,19 +45,22 @@ div {
     display: inline-block;
 }
 
-.visual_nav li a{
+.visual_nav li{
     display: block;
     padding: 15px 40px;
     color: #a8b4be;
     font-weight: bold;
     font-size: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
-.visual_nav li:first-child a{
+#selected{
     color: #fff;
+    
 }
 
-.visual_nav li:first-child{
+#selected{
     background-color: rgba(0,0,0,0.7);
 }
 
@@ -538,5 +538,18 @@ p.copyright{
 }
 
 .top_banner table{
+    margin: 0 auto;
+}
+
+.visual img{
+    display: none;
+}
+
+#visual img {
+    display: none;
+}
+
+.on{
+    display: block !important;
     margin: 0 auto;
 }
