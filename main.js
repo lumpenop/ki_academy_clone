@@ -34,3 +34,15 @@ bannerBtn = (n) => {
     banner(n)
     rolling = setInterval(banner, 4500);
 }
+
+
+function over(){
+    snb = document.querySelector(".snb_area")
+    snb.className = "snb_area navi";
+  
+}
+
+function out(){
+    snb = document.querySelector(".snb_area")
+    snb.className = "snb_area navi2";
+}

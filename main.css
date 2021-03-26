@@ -1,6 +1,12 @@
+/* CSS Style Sheet */
+
 * {
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -552,4 +558,85 @@ p.copyright{
 .on{
     display: block !important;
     margin: 0 auto;
+}
+
+.snb_area{
+    clear: both;
+}
+
+.snb_area ul{
+   width: 180px;
+   float: left;
+}
+
+.snb_area h2{
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+
+.snb_area > ul > li > a {
+    text-align: center;
+    width: 180px;
+    display: inline-block;
+}
+
+.snb_area{
+    clear: both;
+    overflow: hidden;
+    height: 1px;
+}
+
+
+.snb_area.navi{
+    animation: slider 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slider{
+    from{
+        height: 1px;
+    } to {
+        height: 150px;
+    }
+}
+
+.snb_area.navi2{
+    animation: slider2 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slider2{
+    from{
+        height: 150px;
+    } to {
+        height: 1px;
+    }
+}
+
+.snb_area a{
+    text-align: center;
+    color: #323232;
+    
+}
+
+.snb_area h2{
+    text-align: center;
+    width: 180px;
+    margin-right: 120px;
+}
+
+.snb_area{
+    width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.main_nav_con{
+    width: 100%;
+}
+
+.snb_con{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
 }
