@@ -92,6 +92,10 @@ li {
  
 }
 
+#header_container{
+    height: 105.19px;
+}
+
 #header, #container {
     width: 100%;
     margin: 0 auto;
@@ -560,6 +564,14 @@ p.copyright{
     margin: 0 auto;
 }
 
+
+.content{
+    width: 239px  !important;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
 .snb_area{
     clear: both;
 }
@@ -584,18 +596,19 @@ p.copyright{
 .snb_area{
     clear: both;
     overflow: hidden;
-    height: 1px;
+    height: 0px;
 }
 
 
 .snb_area.navi{
     animation: slider 0.5s;
     animation-fill-mode: forwards;
+    display: block;
 }
 
 @keyframes slider{
     from{
-        height: 1px;
+        height: 0px;
     } to {
         height: 150px;
     }
@@ -610,7 +623,7 @@ p.copyright{
     from{
         height: 150px;
     } to {
-        height: 1px;
+        height: 0px;
     }
 }
 
@@ -629,7 +642,6 @@ p.copyright{
 .snb_area{
     width: 1200px;
     margin: 0 auto;
-   
 }
 
 .main_nav_con{
@@ -638,5 +650,153 @@ p.copyright{
 
 .snb_con{
     width: 100%;
+    position: absolute;
+    z-index: 1;
     background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+.snb_area a {
+    color: white;
+    font-size: 16px;
+    padding: 4px 0;
+}
+
+
+.snb_wrap{
+    z-index: 11;
+}
+
+
+
+.visual_wrap{
+    position: relative;
+}
+
+.interview img{
+    display: inline-block;
+    
+}
+
+.interview > ul{
+    display: flex;
+    width: 236px;
+    height: 187px;
+}
+
+.interview img{
+    border: 1px solid #ececec;
+}
+
+.move{
+    position: relative;
+    left: 0;
+    animation:rollin 1s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+@keyframes rollin{
+    to{ 
+        transform: translateX(calc(-100%));
+    }from{
+        
+        left: 0;
+    }
+}
+
+.move2{
+    position: relative;
+    left: 0;
+    animation-fill-mode: forwards;
+    
+}
+
+
+.left_btn, 
+.right_btn{
+    background: gray;
+    color: honeydew;
+    width: 20px;
+    height: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    background: rgba(180, 180, 180, 0.5);
+}
+
+.left_btn,
+.right_btn{
+    position: relative;
+    top: 150px;
+}
+
+.left_btn{
+    left: -20px;
+}
+
+.right_btn{
+    left: 224px;
+}
+
+
+.move_right{
+    position: relative;
+    transform: translateX(calc(-100%));
+    animation-fill-mode: forwards;
+    
+}
+
+.move_right2{
+    position: relative;
+    transform: translateX(calc(-100%));
+    animation:rollin2 1s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+@keyframes rollin2{
+    to{ 
+        transform: translateX(0%);
+    }from{
+        
+        transform: translateX(calc(-100%));
+    }
+}
+
+.top_banner_roll{
+    height: 40px;
+    position: absolute;
+    transform: translateX(94%);
+    top: 5px;
+    left: 0;
+    overflow: hidden;
+
+}
+
+
+
+.top_banner_roll li{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.rollroll{
+    position: relative;
+    
+    top: 0px;
+    left: 0;
+    animation: rollroll 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rollroll{
+    to{
+        top: -45px;
+    }from{
+        top: 0px;
+    }
 }
